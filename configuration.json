@@ -1,0 +1,35 @@
+{
+  "test_config":{
+    "input": "input/test_analyzer.json",
+    "output": "output/test.json",
+    "categoric_features": ["daysOpened","saturdaysOpened","sundayOpened","daysMorningOpened","daysMiddayOpened","daysAfternoonOpened","daysDinnerOpened","daysNightOpened"],
+    "numeric_features": ["beef", "beer", "bread", "burger", "cakes", "cheese", "chicken","chocolate", "churros", "cocktails", "coffee", "cookies", "crepes","croquetas", "duck", "eggs", "espumosos", "fideua", "fries", "fruit","ice creams", "juice", "lamb", "milk", "nachos", "other drink","other entrees", "other espirituosas", "other fish", "other food","other meats", "other rice", "other sweets", "other vegetables","other wines","paella", "pasta", "pinchos", "pizza", "poke", "pork","rabbit", "risotto", "salads", "salmon", "sandwich", "sauces","seafood", "smoothie", "soft drinks", "sushi", "tapas", "tea", "toasts","tuna", "yogurs"],
+    "categoric_labels": ["local_type"],
+    "numeric_labels": ["beef", "beer", "bread", "burger", "cakes", "cheese", "chicken","chocolate", "churros", "cocktails", "coffee", "cookies", "crepes","croquetas", "duck", "eggs", "espumosos", "fideua", "fries", "fruit","ice creams", "juice", "lamb", "milk", "nachos", "other drink","other entrees", "other espirituosas", "other fish", "other food","other meats", "other rice", "other sweets", "other vegetables","other wines","paella", "pasta", "pinchos", "pizza", "poke", "pork","rabbit", "risotto", "salads", "salmon", "sandwich", "sauces","seafood", "smoothie", "soft drinks", "sushi", "tapas", "tea", "toasts","tuna", "yogurs"]
+  },
+  "bcn_localtypes": {
+    "input": "input/bcn_localtypes.json",
+    "output": "output/bcn_localtypes.json",
+    "categoric_features": ["daysOpened","saturdaysOpened","sundayOpened","daysMorningOpened","daysMiddayOpened","daysAfternoonOpened","daysDinnerOpened","daysNightOpened"],
+    "numeric_features": ["annualSatisfaction", "annualTotalComments","density","tags_counter"],
+    "categoric_labels": ["original_local_type"],
+    "numeric_labels": ["annualSatisfaction", "annualTotalComments","density","tags_counter"],
+    "all_columns": ["annualSatisfaction", "annualTotalComments", "daysOpened", "saturdaysOpened", "sundayOpened",
+      "daysMorningOpened", "daysMiddayOpened", "daysAfternoonOpened", "daysDinnerOpened", "daysNightOpened", "density",
+      "tags_counter", "local_type", "other food", "sandwich", "burger", "other meats", "cakes", "chocolate", "fries",
+      "chicken", "salads", "nachos", "fruit", "sauces", "other vegetables", "other fish", "ice creams", "cheese",
+      "beef", "eggs", "pork", "bread", "other entrees", "paella", "salmon", "other drink", "cocktails", "smoothie",
+      "beer", "espumosos", "other wines", "coffee", "tea", "milk", "pasta", "yogurs", "soft drinks", "juice", "seafood",
+      "other sweets", "other espirituosas", "tuna", "croquetas", "pinchos", "tapas", "crepes", "duck", "toasts", "lamb",
+      "churros", "other rice", "pizza", "risotto", "fideua", "rabbit", "sushi", "cookies", "poke", "temp", "beef_r",
+      "beer_r", "bread_r", "burger_r", "cakes_r", "cheese_r", "chicken_r", "chocolate_r", "churros_r", "cocktails_r",
+      "coffee_r", "cookies_r", "crepes_r", "croquetas_r", "duck_r", "eggs_r", "espumosos_r", "fideua_r", "fries_r",
+      "fruit_r", "ice creams_r", "juice_r", "lamb_r", "milk_r", "nachos_r", "other drink_r", "other entrees_r",
+      "other espirituosas_r", "other fish_r", "other food_r", "other meats_r", "other rice_r", "other sweets_r",
+      "other vegetables_r", "other wines_r", "paella_r", "pasta_r", "pinchos_r", "pizza_r", "poke_r", "pork_r", "rabbit_r",
+      "risotto_r", "salads_r", "salmon_r", "sandwich_r", "sauces_r", "seafood_r", "smoothie_r", "soft drinks_r", "sushi_r",
+      "tapas_r", "tea_r", "toasts_r", "tuna_r", "yogurs_r", "beer_p", "bocatas_p", "coffee&tea_p", "entrees_p", "espirituosas_p",
+      "fish_p", "juices&smoothies_p", "lacteos_p", "meat_p", "other drink_p", "other food_p", "pizza&pasta_p", "rice_p",
+      "soft drinks_p", "sushi_p", "sweets_p", "vegetables_p", "wines_p", "original_local_type"]
+  }
+}
